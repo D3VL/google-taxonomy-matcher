@@ -1,0 +1,30 @@
+{
+  "name": "google-taxonomy-matcher",
+  "homepage": "http://github.com/D3VL/google-taxonomy-matcher",
+  "version": "1.0.0",
+  "description": "Matches products with a fitting google product category.",
+  "main": "./src/matcher.js",
+  "scripts": {
+    "test": "node ./test/test.js"
+  },
+  "keywords": [
+    "google taxonomy",
+    "google merchant center",
+    "google product feed",
+    "product category matcher"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "minisearch": "^2.5.1"
+  },
+  "author": "D3VL LTD <contact@d3vl.com> (https://d3vl.com)",
+  "files": [
+    "src/",
+    "LICENSE.md",
+    "README.md"
+  ],
+  "directories": {
+    "test": "test"
+  },
+  "devDependencies": {}
+}
